@@ -136,6 +136,7 @@ body {
   font-family: "OpenSans";
 }
 
+
 .kz-learn-more {
   font-family: "Acumin";
   border: none;
@@ -152,6 +153,18 @@ body {
   height: 300px;
   width: auto;
   z-index: 1;
+}
+@media screen and (max-width: 500px){
+  .kz-hero-illustration{
+    right: -0px  ;
+  }
+  .background{
+    width: 100vw;
+  }
+  .kz-hero-title{
+    left: 20px;
+    top:20vh;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -345,7 +358,8 @@ body {
 .kz-footer-left-upper,
 .kz-footer-right-upper {
   position: relative;
-  padding: 20px;
+  padding: 1vw;
+  
   color: #fafafa;
 }
 
@@ -353,8 +367,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
 }
+.kz-footer-left-upper{
+  margin-left: 20px;
+}
 
-.kz-footer-left-upper,
 .kz-footer-left-social {
   margin-left: 80px;
 }
@@ -452,5 +468,6 @@ body {
   outline: none;
   border-bottom: 2px dashed #fafafa;
 }
+
 
 /** FOOTER ENDS **/
