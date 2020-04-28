@@ -8,8 +8,11 @@
     transform: translate(-50%,-50%);
     z-index: -1;
 }
+
+
 .kz-form {
     position: relative;
+   
     padding-left:10%;
     padding-right: 20%;
     padding-top: 4%;
@@ -145,7 +148,7 @@ color: #1C779C;
 
 .kz-locate-us{
 margin-top:6%;
-margin-bottom: ;
+
 }
 
 .kz-locate-title {

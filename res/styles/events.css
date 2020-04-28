@@ -12,8 +12,8 @@
 }
 
 .kz-h2{
-    font-size: 24px;
-    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .kz-h3{
@@ -35,7 +35,7 @@
 
 .kz-p{
     font-size: 20px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
 
